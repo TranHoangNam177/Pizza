@@ -1,0 +1,26 @@
+.carousel{
+    img{
+        width: 100%;
+        height: 79dvh;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.thumnails{
+    margin-left: 32px;
+}
+
+ .thumnail{
+  width: 100px; 
+  height: 100px;
+  margin-right: 85px;
+  border-radius: 50%;
+  gap: 50px;
+  
+}
+
+.header_text{
+    color: red;
+    font-size: 70px;
+}

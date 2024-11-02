@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(193, 186, 186);
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;  
+    padding: 10px 350px;
+
+    &__nav{
+        margin-right: 250px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+
+            li{
+                color: #fff;
+                font-size: 20px;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+
+                }
+            }
+        }
+    }
+}
+
+  

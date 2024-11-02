@@ -1,0 +1,39 @@
+.quiz-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .quiz-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .quiz-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .quiz-content{
+    flex: 1;
+    max-width: 600px; 
+    margin: 0 auto;
+  
+  }
+
+  .quiz-complete h2 {
+    font-size: 50px;
+    color: red;
+  }
+
+  .quiz-complete p {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
